@@ -1,0 +1,13 @@
+# Local working files are not a secure place for hidden evaluation material.
+# Keep the real held-out set in a separate access-controlled repository/system.
+.env
+.env.*
+!.env.example
+.DS_Store
+__pycache__/
+.venv/
+node_modules/
+tmp/
+local-runs/
+private/
+holdout/
